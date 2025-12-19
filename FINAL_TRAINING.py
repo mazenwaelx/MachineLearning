@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 # ============= CONFIGURATION =============
 CONFIG = {
     'image_size': (96, 96),  # Good balance of quality and speed
-    'augmentation_target': 30000,  # 5000 per class (balanced)
+    'augmentation_target': 20000,  # 5000 per class (balanced)
     'test_size': 0.12,  # 12% for validation (more training data)
     'random_state': 123,  # Try different seed for split
     'n_jobs': -1,
